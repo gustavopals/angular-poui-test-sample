@@ -1038,9 +1038,9 @@ po-loading-icon {
     MENU
   \*------------------------------------*/
 po-menu {
-  --border-radius: 0px;
-  --border-color: var(--color-neutral-dark-80);
-  --background-color: var(--color-neutral-dark-80);
+  --border-radius: var(--border-radius-md);
+  --border-color: var(--color-neutral-light-20);
+  --background-color: var(--color-neutral-light-05);
 
   /* Menu Footer */
   --color: var(--color-action-default);
@@ -1058,11 +1058,11 @@ po-menu-item {
   --font-size: var(--font-size-default);
   --line-height: var(--line-height-md);
   --border-radius: var(--border-radius-md);
-  --color: var(--color-neutral-light-05);
+  --color: var(--color-action-default);
   --background-color: transparent;
 
-  --color-hover: var(--color-neutral-light-00);
-  --background-color-hover: var(--color-brand-01-dark);
+  --color-hover: var(--color-brand-01-darkest);
+  --background-color-hover: var(--color-brand-01-lighter);
 
   --outline-color-focused: var(--color-action-focus);
 
@@ -1893,7 +1893,7 @@ po-textarea {
     TOOLBAR
   \*------------------------------------*/
   --color-toolbar-background-color-badge: var(--color-feedback-negative-base);
-  --color-toolbar-background-color-toolbar: var(--color-neutral-light-10);
+  --color-toolbar-background-color-toolbar: var(--color-neutral-light-05);
 
   --color-toolbar-border-color-separator: var(--color-neutral-light-10);
 
